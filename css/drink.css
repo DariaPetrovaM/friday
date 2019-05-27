@@ -1,0 +1,204 @@
+body{
+		background: #e4e4e4;
+	font-family:'Playfair Display', serif;
+	color:#232123;
+	
+
+}
+.offset:before{
+display:block;
+content: "";
+height: 4rem;
+margin-top: -4rem;
+
+
+}
+h3{
+	font-size:2.5rem;
+	text-align: center;
+}
+/*--- navigation---*/
+.navbar{
+	text-transform:uppercase;
+	font-size: 1.2rem;
+	letter-spacing: .1rem;
+	background:rgba(0,0,0,0.6)!important
+	;
+}
+.navbar-brand img{
+	height: 2.2rem;
+	margin-left: 3rem;
+}
+.navbar-nav li{
+	padding-right: 3rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+	 color:#e4e4e4;
+
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#1ebba3;
+}
+.caption h1{
+
+	font-size:3.5rem;
+	letter-spacing: .3rem;
+	text-shadow:.1rem .1rem .2rem black;
+	padding: 1rem;
+	color: #232123;
+	margin-top:3rem;
+
+}
+.heading-underline{
+	width: 5rem;
+	height: .1rem;
+	background-color: #1ebba3;
+	margin:0 auto 2rem;
+}
+.dishes{
+	display: flex;
+	justify-content: left;
+	flex-direction: column;
+	text-align: left;
+	align-items: left;
+	padding-left: 3rem;
+
+}
+ h2{
+
+ 	margin-top: 2rem;
+	text-align: left;
+}
+.cost{
+	text-align: left;
+}
+.ves{
+	text-align: left;
+}
+.opis{
+	text-align: left;
+}
+.btn{
+	width: 3rem;
+	background: #1ebba3;
+	
+}
+
+.item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	height: 40vh;
+		transition: all 0.2s;
+
+}
+.item:hover{
+		height: 70vh;
+	}
+.item-1{
+	background: url(../img/cof1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.item-2{
+	background: url(../img/cof2.jpg);
+	background-size: cover;
+		background-position: center;
+}.item-3{
+	background: url(../img/cof3.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-4{
+	background: url(../img/cof4.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-5{
+	background: url(../img/cof5.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.item-6{
+	background: url(../img/cof6.jpg);
+	background-size: cover;
+		background-position: center;
+}.item-7{
+	background: url(../img/cof7.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-8{
+	background: url(../img/cof8.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-9{
+	background: url(../img/cof9.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.item-10{
+	background: url(../img/cof10.jpg);
+	background-size: cover;
+		background-position: center;
+}.item-11{
+	background: url(../img/cof11.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-12{
+	background: url(../img/cof12.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-13{
+	background: url(../img/cof13.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-14{
+	background: url(../img/cof14.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-15{
+	background: url(../img/cof15.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-16{
+	background: url(../img/cof16.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-17{
+	background: url(../img/cof17.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-18{
+	background: url(../img/cof18.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-19{
+	background: url(../img/cof19.jpg);
+	background-size: cover;
+		background-position: center;
+}
+
+footer{
+	color: #e4e4e4;
+	font-size: 1.2rem;
+
+		background:#090809; 
+	margin: 0;
+	padding: 0;
+}
+footer h3{
+	text-transform: uppercase;
+
+}

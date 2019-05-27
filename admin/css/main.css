@@ -1,0 +1,135 @@
+body{
+	font-family: 'Playfair Display', serif;
+    color:#232123;
+
+
+}
+.offset:before{
+display:block;
+content: "";
+height: 4rem;
+margin-top: -4rem;
+
+
+}
+/*---- nav---*/
+.navbar{
+text-transform: uppercase;
+font-size: 1.3rem;
+letter-spacing: .1rem;
+background:  rgba(0,0,0,0.6)!important;
+
+}
+.navbar-brand img{
+	height: 2rem;
+}
+.navbar-nav li{
+	padding-right:2rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:#e4e4e4;
+	padding-top: .8rem;
+
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #1ebba3;
+}
+/*---- land---*/
+.home-inner{
+	background-image: url(../img/bc3.jpg);
+
+
+}
+.caption{
+	width: 100%;
+	max-width:100%; 
+	position: absolute;
+	top: 45%;
+	z-index: 1;
+	
+
+}
+.caption h1{
+	color:#e4e4e4;
+	text-transform: uppercase;
+	font-size:3.5rem;
+	letter-spacing: .3rem;
+	text-shadow:.2rem .2rem .8rem black;
+}
+/*-- about us--*/
+.narrow{
+	width: 90%;
+	margin: 1.5rem auto;
+	padding-top: 2rem;
+}
+.heading {
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	text-align: center;
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+}
+.heading-underline{
+	width: 5rem;
+	height: .1rem;
+	background-color: #1ebba3;
+	margin:0 auto 2rem;
+}
+.about h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	color:#232123;
+}
+.about{
+	text-align: left;
+	padding-top: .1rem;
+	font-size: 1.2rem;
+}
+.inter img{
+height:30rem;
+max-width: 100%; }
+.cookk img{
+	height:25rem;
+ 
+}
+/*--- menu----*/
+.fixed{
+background-image: url(../img/bc2.jpg);
+z-index: -1;
+}
+.dark{
+	background-color: rgba(0,0,0,0.75);
+	color:#e4e4e4;
+	padding: 2rem 2rem 4rem;
+	text-align: center;
+
+}
+
+.btn{
+
+
+	border-radius:.4rem;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	padding: .6rem 1.2rem;
+	margin-top: 6rem;
+	margin-bottom: 8rem;
+	color:#e4e4e4;
+border-width:.1rem;
+	border-color: #e4e4e4; 
+	justify-content: center;
+background-color:transparent;
+	text-align: center;
+
+}
+.btn:hover{
+	background-color:#e4e4e4;
+	border-color: #373437;
+	color:#373437;
+}
+#contact{
+	color:#e4e4e4;
+	background:#090809; 
+}

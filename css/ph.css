@@ -1,0 +1,17 @@
+
+body{
+	
+	font-family:'Playfair Display', serif;
+	color:#232123;
+
+
+	padding: 0;
+	margin: 0;
+	text-align: left;
+
+}
+.drink{
+	font-size: 2rem;
+	padding-left: 2rem;
+}
+.drink

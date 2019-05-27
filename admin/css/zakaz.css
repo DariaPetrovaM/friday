@@ -1,0 +1,90 @@
+body{
+	font-family: 'Playfair Display', serif;
+    color:#232123;
+
+
+}
+.offset:before{
+display:block;
+content: "";
+height: 4rem;
+margin-top: -4rem;
+
+
+}
+/*---- nav---*/
+.navbar{
+text-transform: uppercase;
+font-size: 1.3rem;
+letter-spacing: .1rem;
+background:  rgba(0,0,0,0.6)!important;
+
+}
+.navbar-brand img{
+	height: 2rem;
+}
+.navbar-nav li{
+	padding-right:2rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:#e4e4e4;
+	padding-top: .8rem;
+
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #1ebba3;
+}
+/*---- land---*/
+.home-inner{
+	background-image: url(../img/bc3.jpg);
+
+
+}
+.caption{
+	width: 100%;
+	max-width:100%; 
+	position: absolute;
+	top: 45%;
+	z-index: 1;
+	
+
+}
+.caption h1{
+	color:#e4e4e4;
+	text-transform: uppercase;
+	font-size:3.5rem;
+	letter-spacing: .3rem;
+	text-shadow:.2rem .2rem .8rem black;
+}
+/*-- about us--*/
+.narrow{
+	width: 90%;
+	margin:3rem auto;
+	padding-top: 2rem;
+}
+.heading {
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	text-align: center;
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+}
+.heading-underline{
+	width: 5rem;
+	height: .1rem;
+	background-color: #1ebba3;
+	margin:0 auto 2rem;
+}
+.table{
+	height: auto;
+	width: auto;
+	border: none;
+
+
+}
+
+#contact{
+	color:#e4e4e4;
+	background:#090809; 
+}

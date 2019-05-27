@@ -1,0 +1,133 @@
+body{
+		background: #e4e4e4;
+	font-family:'Playfair Display', serif;
+	color:#232123;
+	
+
+}
+.offset:before{
+display:block;
+content: "";
+height: 4rem;
+margin-top: -4rem;
+
+
+}
+h3{
+	font-size:2.5rem;
+	text-align: center;
+}
+/*--- navigation---*/
+.navbar{
+	text-transform:uppercase;
+	font-size: 1.2rem;
+	letter-spacing: .1rem;
+	background:rgba(0,0,0,0.6)!important
+	;
+}
+.navbar-brand img{
+	height: 2.2rem;
+	margin-left: 3rem;
+}
+.navbar-nav li{
+	padding-right: 3rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+	 color:#e4e4e4;
+
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#1ebba3;
+}
+.caption h1{
+
+	font-size:3.5rem;
+	letter-spacing: .3rem;
+	text-shadow:.1rem .1rem .2rem black;
+	padding: 1rem;
+	color: #232123;
+	margin-top:3rem;
+
+}
+.heading-underline{
+	width: 5rem;
+	height: .1rem;
+	background-color: #1ebba3;
+	margin:0 auto 2rem;
+}
+
+.dishes{
+	display: flex;
+	justify-content: left;
+	flex-direction: column;
+	text-align: left;
+	align-items: left;
+	padding-left: 3rem;
+
+}
+ h2{
+
+ 	margin-top: 2rem;
+	text-align: left;
+}
+.cost{
+	text-align: left;
+}
+.ves{
+	text-align: left;
+}
+.opis{
+	text-align: left;
+}
+.btn{
+	width: 3rem;
+	background: #1ebba3;
+	
+}
+
+
+
+.item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	height: 40vh;
+		transition: all 0.2s;
+
+}
+.item:hover{
+		height: 60vh;
+	}
+.item-1{
+	background: url(../img/pp4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.item-2{
+	background: url(../img/pp2.jpg);
+	background-size: cover;
+		background-position: center;
+}.item-3{
+	background: url(../img/pp3.jpg);
+	background-size: cover;
+		background-position: center;
+}
+.item-4{
+	background: url(../img/pp1.jpg);
+	background-size: cover;
+		background-position: center;
+}
+footer{
+	color: #e4e4e4;
+	font-size: 1.2rem;
+
+		background:#090809; 
+	margin: 0;
+	padding: 0;
+}
+footer h3{
+	text-transform: uppercase;
+
+}
